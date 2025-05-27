@@ -1,0 +1,85 @@
+body {
+    background-color: #2d2c2c;
+    color: #ebdbb2;
+}
+
+ /*texto do cabeçalho centralisado*/ 
+.cab{
+    text-align: center;
+}
+
+/* configurações de cada caixa de texto (sobre mim, projetos, contato) */
+.div1 {
+    color: #2d2c2c;
+    display: block;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    background-color: #ffc0cb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.div2 {
+    color: #2d2c2c;
+    display: block;
+    height: auto;
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    background-color: #10a4e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.div3 {
+    color: #2d2c2c;
+    display: block;
+    height: auto;
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    background-color: #28eded;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+/* Formulário */
+.formu {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    max-width: 100px;
+}
+
+/* Botão no rodapé de retorno ao topo  */
+.footer {
+    display: block;
+    height: fit-content;
+    left: 5px;
+    bottom: 5px;
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+    text-align: left;
+}
+
+.bot {
+    background-color: #c8ab93;
+    color: #2d2c2c;
+    border-radius: 2px;
+}
+
+.bot:hover {
+    background-color: #a18974;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio PHLR</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <h1 class="cab">PHLR</h1>
+    <h1 class="cab">Estudante universitário</h1>
+
+    <div class="div1">
+        <h2 class="cab">Sobre mim</h2>
+        <p>Atualmente estudo de Análise e Desenvolviment de Sistemas (ADS) na Uninter.</p>
+        <p>Tenho interesse em programação há alguns anos mas antes de começar a cursar ADS não havia me debruçado muito neste tópico.</p>
+        <p>Ainda não sei qual área pretendo escolher para trabalhar, pretendo explorar mais algumas possibilidades.</p>
+    </div>
+
+<hr>
+
+<div class="div2">
+    <h2 class="cab">Projetos</h2>
+    <p>Estudando:
+        <ul>
+            <li>HTML, CSS, JS</li>
+            <li>C</li>
+        </ul>
+    </p>
+    <p>Futuros estudos:
+        <ul>
+            <li>R</li>
+            <li>Linux</li>
+        </ul>
+    </p>
+    
+    <p>Em construção:
+        <ul>
+            <li>Site pessoal</li>
+            <li>Site de hobbies</li>
+            <li>Servidor pessoal</li>
+        </ul>
+    </p>
+</div>
+
+<hr>
+
+<div class="div3">
+    <h2 class="cab">Contato</h2>
+    <p>Um formulário para caso queira entrar em contato comigo.</p>
+    <form class="formu">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <div id="nomeError" class="error"></div>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="emailError" class="error"></div>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <div id="mensagemError" class="error"></div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<footer class="footer"><button class="bot" onclick="topFunction()" id="botTop" title="Voltar ao topo">Voltar ao topo</button></footer>
+
+</body>
+
+<script src="port.js"></script>
+</html>
